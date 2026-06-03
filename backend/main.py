@@ -19,7 +19,7 @@ from .pipeline.types import BoundingBox, PipelineResult
 from .pipeline import visualizer
 
 
-app = FastAPI(title="Jewel Inspection Pipeline", version="1.0.0")
+app = FastAPI(title="Jewelry Visual Inspection", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
